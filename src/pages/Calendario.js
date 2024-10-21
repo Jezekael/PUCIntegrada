@@ -9,7 +9,6 @@ const localizer = momentLocalizer(moment);
 const Calendario = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);
 
-  // Example lesson events
   const events = [
     {
       title: 'INF1039',
@@ -53,12 +52,12 @@ const Calendario = () => {
           defaultView="week"
           style={{ height: 600, width: '100%' }}
           onSelectEvent={onSelectEvent}
-          min={new Date(2024, 9, 10, 7, 0)} // Limit start time to 7 AM
-          max={new Date(2024, 9, 10, 22, 0)} // Limit end time to 10 PM
+          min={new Date(2024, 9, 10, 7, 0)}
+          max={new Date(2024, 9, 10, 22, 0)} 
         />
       </div>
       <div style={{ flex: 1, marginLeft: '20px', padding: '10px', background: '#f0f0f0', borderRadius: '8px' }}>
-        <h2>Detalhes da Aula</h2>
+        <h2>Geral da Aula</h2>
         {selectedEvent ? (
           <div>
             <h3>{selectedEvent.title}</h3>
