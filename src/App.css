@@ -29,3 +29,57 @@ body {
     padding: 2em;
   }
   
+  /* CALENDAR */
+
+/* App.css */
+
+/* App.css */
+
+.react-calendar {
+  max-width: 1500px;
+  width: 100%; /* Make the calendar take up the full available width */
+  margin: 2em auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  font-size: 1.2em; /* Adjust font size if needed */
+}
+
+.react-calendar__tile--active {
+  background: #333;
+  color: white;
+}
+
+.lesson-date {
+  background-color: #ffcccb !important;
+  color: black !important;
+}
+
+.rbc-calendar {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+}
+
+.rbc-event {
+  background-color: #333;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.rbc-toolbar {
+  background: #444;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.rbc-time-view {
+  background-color: #f8f8f8;
+}
+
+
+
