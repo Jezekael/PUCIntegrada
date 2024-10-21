@@ -1,13 +1,15 @@
-// pages/PaginaInicial.js
+// src/pages/PaginaInicial.js
 import React from 'react';
 
-function PaginaInicial() {
+const PaginaInicial = () => {
   return (
     <div>
       <h1>Página Inicial</h1>
-      <p>Bem-vindo à página inicial!</p>
+      <p>Welcome to the Página Inicial!</p>
     </div>
   );
-}
+};
 
 export default PaginaInicial;
+
+
