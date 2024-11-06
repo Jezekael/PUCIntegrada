@@ -11,6 +11,7 @@ body {
     padding: 1em;
     display: flex;
     justify-content: space-around;
+    vertical-align: middle;
   }
   
   nav a {
@@ -79,6 +80,12 @@ body {
 
 .rbc-time-view {
   background-color: #f8f8f8;
+}
+
+/* Icon */
+.nav-logo {
+  height: 40px; /* Adjust size as needed */
+  vertical-align: middle;
 }
 
 
